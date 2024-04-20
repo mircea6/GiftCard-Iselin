@@ -1,0 +1,103 @@
+body{
+    background: linear-gradient(#EFB0C9, white);
+    text-align: center ;
+    
+}
+
+#page1{
+    font-family: "Happy Monkey", system-ui;
+    color: #ffffff;
+    text-shadow: 0px 0px 1px black;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+#avatar{
+    width: 150px;
+    border-radius: 50%;
+    border: 6px solid #a2d2ff;
+}
+#age {
+    background: #a2d2ff;
+    padding: 5px 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px; 
+} 
+#date{
+    background: #a2d2ff;
+    padding: 5px 10px;
+    border-radius: 10px;
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+.giftbox{
+    background-image: url("./ieslin/gift-cover1.jpg");
+    width: 400px;
+    height: 400px;
+    border: 5px solid #a2d2ff;
+    border-radius: 10px;
+    background-size: cover;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+.giftbox:hover{
+    background-image: url("./ieslin/giphy1.gif");
+}
+.msg-bth{
+    font-family: "Happy Monkey", system-ui;
+    color: #ffffff;
+    text-shadow: 0px 0px 1px black;
+    margin-bottom: 5px;
+}
+.push{
+    font-family: "Happy Monkey", system-ui;
+    color: #ffffff;
+    text-shadow: 0px 0px 1px black;
+    margin-top: 0;
+}
+
+.giftbox1{
+    background-image: url("./ieslin/gift-cover3.jpg");
+    width: 400px;
+    height: 400px;
+    border: 5px solid #a2d2ff;
+    border-radius: 10px;
+    background-size: cover;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+.giftbox1:hover{
+    background-image: url("./ieslin/giphy2.gif");
+}
+.giftbox2{
+    background-image: url("./ieslin/gift-cover4.jpg");
+    width: 400px;
+    height: 400px;
+    border: 5px solid #a2d2ff;
+    border-radius: 10px;
+    background-size: cover;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+.giftbox2:hover{
+    background-image: url("./ieslin/ieslin2.jpg");
+    background-size: cover;
+}
+.giftbox3{
+    background-image: url("./ieslin/gift-cover2.jpg");
+    width: 400px;
+    height: 400px;
+    border: 5px solid #a2d2ff;
+    border-radius: 10px;
+    background-size: cover;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+.giftbox3:hover{
+    background-image: url("./ieslin/giphy3.gif");
+}
